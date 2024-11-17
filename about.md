@@ -28,8 +28,71 @@ layout: page
     </ul>
 </section>
 
-<h2>Selected Publications</h2>
+<section id="selected-papers">
+	<h2>Selected Publications</h2>
+    <p>A selection of papers that reflect my main research focus and contributions.</p>
 
+ <table>
+
+  <tr>
+    <td style="padding:10px">
+      <a href="https://arxiv.org/pdf/2410.06458"><img width="200px" style="min-width:100px; object-fit: cover;" src="assets/images/selected_publications/DeCRIM.png"></a>
+    </td>
+    <td style="padding:10px">
+      <a class="paper" href="https://arxiv.org/pdf/2410.06458" style="font-size: 20px; text-decoration: none; color: #007acc;">
+        LLM Self-Correction with DeCRIM: Decompose, Critique, and Refine for Enhanced Following of Instructions with Multiple Constraints
+      </a><br>
+      <span style="font-style: italic; color: #555;">Thomas Palmeira Ferraz, Kartik Mehta, Yu-Hsiang Lin, Haw-Shiuan Chang, Shereen Oraby, Sijia Liu, Vivek Subramanian, Tagyoung Chung, Mohit Bansal, Nanyun Peng</span><br>
+      <span style="color: #333;">EMNLP, 2024 & Sys2Reasoning @ NeurIPS, 2024</span><br>
+      <p style="margin-top: 5px; font-size: 0.95em; color: #333;"><strong>TL;DR:</strong> Introducing RealInstruct to evaluate LLMs on real multi-constrained instructions, and DeCRIM self-correction that improves instruction following decomposing requests and refining responses, enabling open LLMs to outperform GPT-4 with strong feedback.</p>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px">
+      <a href="https://arxiv.org/pdf/2311.01070"><img width="200px" style="min-width:100px; object-fit: cover;" src="assets/images/selected_publications/DistilWhisper.png"></a>
+    </td>
+    <td style="padding:10px">
+      <a class="paper" href="https://arxiv.org/pdf/2311.01070" style="font-size: 20px; text-decoration: none; color: #007acc;">
+        Multilingual DistilWhisper: Efficient Distillation of Multi-task Speech Models via Language-Specific Experts
+      </a><br>
+      <span style="font-style: italic; color: #555;">Thomas Palmeira Ferraz, Marcely Zanon Boito, Caroline Brun, Vassilina Nikoulina</span><br>
+      <span style="color: #333;">ICASSP, 2024</span><br>
+      <p style="margin-top: 5px; font-size: 0.95em; color: #333;"><strong>TL;DR:</strong> Propose a lightweight adaptation method to bridge the gap between small and large models on under-represented languages. It leverages language-specific experts and knowledge distillation from the larger model, outperforming fine-tuning and LoRA while adding minimal overhead.</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:10px">
+      <a href="https://arxiv.org/pdf/2201.01337"><img width="200px" style="min-width:100px; object-fit: cover;" src="assets/images/selected_publications/ZeroBERTo.png"></a>
+    </td>
+    <td style="padding:10px">
+      <a class="paper" href="https://arxiv.org/pdf/2201.01337" style="font-size: 20px; text-decoration: none; color: #007acc;">
+        ZeroBERTo: Leveraging Zero-Shot Text Classification by Topic Modeling
+      </a><br>
+      <span style="font-style: italic; color: #555;">Alexandre Alcoforado, Thomas Palmeira Ferraz, Rodrigo Gerber, Enzo Bustos, André Seidel Oliveira, Bruno Miguel Veloso, Fabio Levy Siqueira, Anna Helena Reali Costa</span><br>
+      <span style="color: #333;">PROPOR, 2022</span><br>
+      <p style="margin-top: 5px; font-size: 0.95em; color: #333;"><strong>TL;DR:</strong> ZeroBERTo, a hybrid model for zero-shot text classification combining topic modeling with language models, overcoming input size limitations and reducing runtime, achieving 12% better F1 score and 13x faster inference compared to XLM-R on Portuguese benchmark.</p>
+    </td>
+  </tr>
+<!-- 
+  <tr>
+    <td style="padding:10px">
+      <a href="https://link-to-paper3.com"><img height="75px" style="min-width:100px; object-fit: cover; border-radius: 8px;" src="path/to/image3.jpg"></a>
+    </td>
+    <td style="padding:10px">
+      <a class="paper" href="https://link-to-paper3.com" style="font-size: 20px; text-decoration: none; color: #007acc;">
+        Yet Another Paper Title
+      </a><br>
+      <span style="font-style: italic; color: #555;">Thomas Ferraz, Author F, Author G</span><br>
+      <span style="color: #333;">Conference Name, Year</span><br>
+      <p style="margin-top: 5px; font-size: 0.95em; color: #333;"><strong>TL;DR:</strong> A concise explanation of the research contributions.</p>
+    </td>
+  </tr>
+-->
+</table>
+
+
+<!-- 
 <h2>Skills</h2>
 
 <ul class="skill-list">
@@ -55,3 +118,4 @@ layout: page
 	<li><a href="https://github.com/">Ipsum Dolor</a></li>
 	<li><a href="https://github.com/">Dolor Lorem</a></li>
 </ul>
+-->
