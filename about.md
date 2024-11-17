@@ -5,7 +5,7 @@ layout: page
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
 <section id="about-me">
-    <h2>About Me</h2>
+    <h2>👨🏻‍💻 About Me</h2>
     <p>
         Hi, I'm <strong>Thomas Ferraz</strong>, a PhD Track Student at École Polytechnique / Télécom Paris (Institut Polytechnique de Paris), specializing
         in <strong>Natural Language Processing (NLP)</strong> with a focus on <strong>large language models</strong>,
@@ -19,7 +19,7 @@ layout: page
 </section>
 
 <section id="research-interests">
-    <h2>Research Interests</h2>
+    <h2>🔬 Research Interests</h2>
     <ul>
         <li><strong>Low-resource NLP:</strong> Developing techniques to enhance language models for less-represented languages.</li>
         <li><strong>Adversarial Robustness:</strong> Creating methods to make NLP systems more resilient against adversarial inputs.</li>
@@ -27,6 +27,8 @@ layout: page
         <li><strong>Speech Recognition and Translation:</strong> Improving multilingual speech models for robust and accurate transcription and translation, particularly in low-resource language settings.</li>
     </ul>
 </section>
+
+<h2>Selected Publications</h2>
 
 <h2>Skills</h2>
 
