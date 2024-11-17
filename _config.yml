@@ -1,5 +1,5 @@
 # main text of home
-title: John Doe
+title: Thomas Palmeira Ferraz
 bio: A Person who travels the world eating noodles
 
 # twitter summary info
@@ -34,11 +34,11 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
+#facebook: myfacebook
+twitter: https://x.com/_ThomasPF
+#instagram: myinstagram
+linkedin: https://www.linkedin.com/in/thomasferraz/
+github: https://github.com/thomas-ferraz
 email: myemail@gmail.com
 
 authors:
