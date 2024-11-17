@@ -35,10 +35,10 @@ disqus:
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
-twitter: https://x.com/_ThomasPF
+twitter: _ThomasPF
 #instagram: myinstagram
-linkedin: https://www.linkedin.com/in/thomasferraz/
-github: https://github.com/thomas-ferraz
+linkedin: thomasferraz
+github: thomas-ferraz
 email: myemail@gmail.com
 
 authors:
