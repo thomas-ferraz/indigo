@@ -18,6 +18,13 @@
             <i class="fa-solid fa-graduation-cap"></i>
         </a>
     {% endif %}
+    
+    {% if site.orcid %}
+        <a class="link" data-title="https://orcid.org/{{ site.orcid }}" href="https://orcid.org/{{ site.orcid }}" target="_blank" rel="noopener" alt="anchor link for orcid" aria-label="anchor for orcid">
+            <i class="fa-brands fa-orcid"></i>
+        </a>
+    {% endif %}
+
 
     {% if site.instagram %}
         <a class="link" data-title="instagram.com/{{ site.instagram }}" href="https://instagram.com/{{ site.instagram }}" target="_blank"  rel="noopener" alt="anchor link for social media instagram" aria-label="anchor link for social media instagram">
