@@ -36,7 +36,7 @@ layout: page
 
   <tr>
     <td style="padding:10px; width: 25%;">
-      <a href="https://arxiv.org/pdf/2410.06458"><img src="{{ site.url }}/assets/images/selected_publications/DeCRIM.png"></a>
+      <a href="https://arxiv.org/pdf/2410.06458"><img width="100%" style="min-width:100px; object-fit: cover;" src="{{ site.url }}/assets/images/selected_publications/DeCRIM.png"></a>
     </td>
     <td style="padding:10px; width: 75%;">
       <a class="paper" href="https://arxiv.org/pdf/2410.06458" style="font-size: 20px; text-decoration: none; color: #007acc;">
@@ -50,7 +50,7 @@ layout: page
 
   <tr>
     <td style="padding:10px; width: 25%;">
-      <a href="https://arxiv.org/pdf/2311.01070"><img width="200px" style="min-width:100px; object-fit: cover;" src="{{ site.url }}/assets/images/selected_publications/DistilWhisper.png"></a>
+      <a href="https://arxiv.org/pdf/2311.01070"><img width="100%" style="min-width:100px; object-fit: cover;" src="{{ site.url }}/assets/images/selected_publications/DistilWhisper.png"></a>
     </td>
     <td style="padding:10px; width: 75%;">
       <a class="paper" href="https://arxiv.org/pdf/2311.01070" style="font-size: 20px; text-decoration: none; color: #007acc;">
@@ -63,7 +63,7 @@ layout: page
   </tr>
   <tr>
     <td style="padding:10px; width: 25%;">
-      <a href="https://arxiv.org/pdf/2201.01337"><img width="200px" style="min-width:100px; object-fit: cover;" src="{{ site.url }}/assets/images/selected_publications/ZeroBERTo.png"></a>
+      <a href="https://arxiv.org/pdf/2201.01337"><img width="100%" style="min-width:100px; object-fit: cover;" src="{{ site.url }}/assets/images/selected_publications/ZeroBERTo.png"></a>
     </td>
     <td style="padding:10px; width: 75%;">
       <a class="paper" href="https://arxiv.org/pdf/2201.01337" style="font-size: 20px; text-decoration: none; color: #007acc;">
