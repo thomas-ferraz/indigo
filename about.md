@@ -32,13 +32,13 @@ layout: page
 	<h2>📝 Selected Publications</h2>
     <p>A selection of papers that reflect my main research focus and contributions.</p>
 
- <table>
+<table style="width: 100%; table-layout: fixed;">
 
   <tr>
-    <td style="padding:10px" width="200px">
+    <td style="padding:10px; width: 25%;">
       <a href="https://arxiv.org/pdf/2410.06458"><img width="200px" style="min-width:100px; object-fit: cover;" src="{{ site.url }}/assets/images/selected_publications/DeCRIM.png"></a>
     </td>
-    <td style="padding:10px">
+    <td style="padding:10px; width: 75%;">
       <a class="paper" href="https://arxiv.org/pdf/2410.06458" style="font-size: 20px; text-decoration: none; color: #007acc;">
         LLM Self-Correction with DeCRIM: Decompose, Critique, and Refine for Enhanced Following of Instructions with Multiple Constraints
       </a><br>
@@ -49,10 +49,10 @@ layout: page
   </tr>
 
   <tr>
-    <td style="padding:10px" width="200px">
+    <td style="padding:10px; width: 25%;">
       <a href="https://arxiv.org/pdf/2311.01070"><img width="200px" style="min-width:100px; object-fit: cover;" src="{{ site.url }}/assets/images/selected_publications/DistilWhisper.png"></a>
     </td>
-    <td style="padding:10px">
+    <td style="padding:10px; width: 75%;">
       <a class="paper" href="https://arxiv.org/pdf/2311.01070" style="font-size: 20px; text-decoration: none; color: #007acc;">
         Multilingual DistilWhisper: Efficient Distillation of Multi-task Speech Models via Language-Specific Experts
       </a><br>
@@ -62,10 +62,10 @@ layout: page
     </td>
   </tr>
   <tr>
-    <td style="padding:10px" width="200px">
+    <td style="padding:10px; width: 25%;">
       <a href="https://arxiv.org/pdf/2201.01337"><img width="200px" style="min-width:100px; object-fit: cover;" src="{{ site.url }}/assets/images/selected_publications/ZeroBERTo.png"></a>
     </td>
-    <td style="padding:10px">
+    <td style="padding:10px; width: 75%;">
       <a class="paper" href="https://arxiv.org/pdf/2201.01337" style="font-size: 20px; text-decoration: none; color: #007acc;">
         ZeroBERTo: Leveraging Zero-Shot Text Classification by Topic Modeling
       </a><br>
