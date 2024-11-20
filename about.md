@@ -49,7 +49,7 @@ layout: page
   </tr>
 
   <tr>
-    <td style="padding:10px">
+    <td style="padding:10px" width="200px">
       <a href="https://arxiv.org/pdf/2311.01070"><img width="200px" style="min-width:100px; object-fit: cover;" src="{{ site.url }}/assets/images/selected_publications/DistilWhisper.png"></a>
     </td>
     <td style="padding:10px">
@@ -62,7 +62,7 @@ layout: page
     </td>
   </tr>
   <tr>
-    <td style="padding:10px">
+    <td style="padding:10px" width="200px">
       <a href="https://arxiv.org/pdf/2201.01337"><img width="200px" style="min-width:100px; object-fit: cover;" src="{{ site.url }}/assets/images/selected_publications/ZeroBERTo.png"></a>
     </td>
     <td style="padding:10px">
