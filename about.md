@@ -29,13 +29,13 @@ layout: page
 </section>
 
 <section id="selected-papers">
-	<h2>Selected Publications</h2>
+	<h2>📝 Selected Publications</h2>
     <p>A selection of papers that reflect my main research focus and contributions.</p>
 
  <table>
 
   <tr>
-    <td style="padding:10px">
+    <td style="padding:10px" width="200px">
       <a href="https://arxiv.org/pdf/2410.06458"><img width="200px" style="min-width:100px; object-fit: cover;" src="{{ site.url }}/assets/images/selected_publications/DeCRIM.png"></a>
     </td>
     <td style="padding:10px">
