@@ -36,7 +36,7 @@ layout: page
 
   <tr>
     <td style="padding:10px; width: 25%;">
-      <a href="https://arxiv.org/pdf/2410.06458"><img width="100%" style="min-width:100px; object-fit: cover;" src="{{ site.url }}/assets/images/selected_publications/DeCRIM.png"></a>
+      <a href="https://arxiv.org/pdf/2410.06458"><img width="100%" src="{{ site.url }}/assets/images/selected_publications/DeCRIM.png"></a>
     </td>
     <td style="padding:10px; width: 75%;">
       <a class="paper" href="https://arxiv.org/pdf/2410.06458" style="font-size: 20px; text-decoration: none; color: #007acc;">
@@ -44,13 +44,13 @@ layout: page
       </a><br>
       <span style="font-style: italic; color: #555;">Thomas Palmeira Ferraz, Kartik Mehta, Yu-Hsiang Lin, Haw-Shiuan Chang, Shereen Oraby, Sijia Liu, Vivek Subramanian, Tagyoung Chung, Mohit Bansal, Nanyun Peng</span><br>
       <span style="color: #333;">EMNLP, 2024 & Sys2Reasoning @ NeurIPS, 2024</span><br>
-      <p style="margin-top: 5px; font-size: 0.95em; color: #333;"><strong>TL;DR:</strong> Introducing RealInstruct to evaluate LLMs on real multi-constrained instructions, and DeCRIM self-correction that improves instruction following decomposing requests and refining responses, enabling open LLMs to outperform GPT-4 with strong feedback.</p>
+      <p style="margin-top: 5px; font-size: 0.95em;"><strong>TL;DR:</strong> Introducing RealInstruct to evaluate LLMs on real multi-constrained instructions, and DeCRIM self-correction that improves instruction following decomposing requests and refining responses, enabling open LLMs to outperform GPT-4 with strong feedback.</p>
     </td>
   </tr>
 
   <tr>
     <td style="padding:10px; width: 25%;">
-      <a href="https://arxiv.org/pdf/2311.01070"><img width="100%" style="min-width:100px; object-fit: cover;" src="{{ site.url }}/assets/images/selected_publications/DistilWhisper.png"></a>
+      <a href="https://arxiv.org/pdf/2311.01070"><img width="100%" src="{{ site.url }}/assets/images/selected_publications/DistilWhisper.png"></a>
     </td>
     <td style="padding:10px; width: 75%;">
       <a class="paper" href="https://arxiv.org/pdf/2311.01070" style="font-size: 20px; text-decoration: none; color: #007acc;">
@@ -58,12 +58,12 @@ layout: page
       </a><br>
       <span style="font-style: italic; color: #555;">Thomas Palmeira Ferraz, Marcely Zanon Boito, Caroline Brun, Vassilina Nikoulina</span><br>
       <span style="color: #333;">ICASSP, 2024</span><br>
-      <p style="margin-top: 5px; font-size: 0.95em; color: #333;"><strong>TL;DR:</strong> Propose a lightweight adaptation method to bridge the gap between small and large models on under-represented languages. It leverages language-specific experts and knowledge distillation from the larger model, outperforming fine-tuning and LoRA while adding minimal overhead.</p>
+      <p style="margin-top: 5px; font-size: 0.95em;"><strong>TL;DR:</strong> Propose a lightweight adaptation method to bridge the gap between small and large models on under-represented languages. It leverages language-specific experts and knowledge distillation from the larger model, outperforming fine-tuning and LoRA while adding minimal overhead.</p>
     </td>
   </tr>
   <tr>
     <td style="padding:10px; width: 25%;">
-      <a href="https://arxiv.org/pdf/2201.01337"><img width="100%" style="min-width:100px; object-fit: cover;" src="{{ site.url }}/assets/images/selected_publications/ZeroBERTo.png"></a>
+      <a href="https://arxiv.org/pdf/2201.01337"><img width="100%" src="{{ site.url }}/assets/images/selected_publications/ZeroBERTo.png"></a>
     </td>
     <td style="padding:10px; width: 75%;">
       <a class="paper" href="https://arxiv.org/pdf/2201.01337" style="font-size: 20px; text-decoration: none; color: #007acc;">
@@ -71,7 +71,7 @@ layout: page
       </a><br>
       <span style="font-style: italic; color: #555;">Alexandre Alcoforado, Thomas Palmeira Ferraz, Rodrigo Gerber, Enzo Bustos, André Seidel Oliveira, Bruno Miguel Veloso, Fabio Levy Siqueira, Anna Helena Reali Costa</span><br>
       <span style="color: #333;">PROPOR, 2022</span><br>
-      <p style="margin-top: 5px; font-size: 0.95em; color: #333;"><strong>TL;DR:</strong> ZeroBERTo, a hybrid model for zero-shot text classification combining topic modeling with language models, overcoming input size limitations and reducing runtime, achieving 12% better F1 score and 13x faster inference compared to XLM-R on Portuguese benchmark.</p>
+      <p style="margin-top: 5px; font-size: 0.95em;"><strong>TL;DR:</strong> ZeroBERTo, a hybrid model for zero-shot text classification combining topic modeling with language models, overcoming input size limitations and reducing runtime, achieving 12% better F1 score and 13x faster inference compared to XLM-R on Portuguese benchmark.</p>
     </td>
   </tr>
 <!-- 
