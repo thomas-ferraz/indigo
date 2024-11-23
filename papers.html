@@ -21,26 +21,6 @@ papers:
 
 <style>
 /* Embedded CSS styling */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
-h1 {
-    margin: 0;
-    font-size: 2rem;
-}
-
 .papers-list {
     padding: 20px;
     max-width: 900px;
@@ -68,28 +48,54 @@ h1 {
 .paper a:hover {
     text-decoration: underline;
 }
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
+.award {
+    background-color: #f5c6a5; /* Faded orange */
+    border: 1px solid var(--primary);
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 5px; /* Adding rounding */
+    box-shadow: 0px 0px 3px var(--secondary); /* Adding shadow */
+    font-size: smaller;
 }
-</style>
-
-<header>
-    <h1>Publications</h1>
-</header>
-
-<main>
+<section class="list">
     <section class="papers-list">
         {% for paper in page.papers %}
         <article class="paper">
-            <h2><a href="{{ paper.link }}">{{ paper.title }}</a></h2>
-            <p><em>{{ paper.authors }}, {{ paper.year }}</em></p>
-            <p>{{ paper.description }}</p>
+            <h2>
+                <a href="{{ paper.url }}">{{ paper.title }}</a>
+            </h2>
+            <p>
+                <span class="authors">{{ paper.authors }}</span><br>
+                <span class="venue"><em>{{ paper.venue | markdownify }}</em></span>
+            </p>
+            <p>
+                {% if paper.github %}
+                <span class="resource">
+                    <a href="{{ paper.github }}">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/>
+                        </svg>
+                    </a>
+                </span>
+                {% endif %}
+                {% if paper.twitter %}
+                <span class="resource">
+                    <a href="{{ paper.twitter }}">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0012 6.94 4.48 4.48 0 0016.18 2c-1.72 1-3.44 1.55-5.2 1.7a4.48 4.48 0 00-7.56 4A12.8 12.8 0 011.67 3a4.48 4.48 0 001.39 5.94A4.48 4.48 0 01.8 8.7v.05a4.48 4.48 0 003.59 4.38 4.48 4.48 0 01-2 .08 4.48 4.48 0 004.18 3A9.6 9.6 0 010 21a12.8 12.8 0 007 2c8.66 0 13.4-7.2 13.4-13.45 0-.2 0-.42-.02-.63A9.72 9.72 0 0023 3z"/>
+                        </svg>
+                    </a>
+                </span>
+                {% endif %}
+            </p>
         </article>
         {% endfor %}
     </section>
-</main>
+
+</section>
+
 
