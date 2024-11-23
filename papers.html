@@ -1,0 +1,95 @@
+---
+title: Papers
+layout: page
+papers:
+  - title: "Paper Title 1"
+    link: "https://link-to-your-paper1.com"
+    authors: "Author Name, Co-author Name"
+    year: 2023
+    description: "A short description of the paper, highlighting key contributions."
+  - title: "Paper Title 2"
+    link: "https://link-to-your-paper2.com"
+    authors: "Author Name, Co-author Name"
+    year: 2022
+    description: "Another short description, summarizing key ideas."
+  - title: "Paper Title 3"
+    link: "https://link-to-your-paper3.com"
+    authors: "Author Name, Co-author Name"
+    year: 2021
+    description: "A brief summary of the research and its impact."
+---
+
+<style>
+/* Embedded CSS styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.papers-list {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.paper {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.paper h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.paper a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.paper a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+</style>
+
+<header>
+    <h1>Publications</h1>
+</header>
+
+<main>
+    <section class="papers-list">
+        {% for paper in page.papers %}
+        <article class="paper">
+            <h2><a href="{{ paper.link }}">{{ paper.title }}</a></h2>
+            <p><em>{{ paper.authors }}, {{ paper.year }}</em></p>
+            <p>{{ paper.description }}</p>
+        </article>
+        {% endfor %}
+    </section>
+</main>
+
